@@ -20,6 +20,7 @@ SRCS = \
     $(SRC_DIR)/core/common.c \
     $(SRC_DIR)/controllers/controller_registry.c \
     $(SRC_DIR)/controllers/dualsense/dualsense.c \
+    $(SRC_DIR)/controllers/dualshock4/dualshock4.c \
     $(SRC_DIR)/console/ps3/ds3_emulation.c \
     $(SRC_DIR)/console/ps3/usb_gadget.c \
     $(SRC_DIR)/console/ps3/bt_hid.c \

@@ -25,6 +25,8 @@
 
 #include "controllers/controller_interface.h"
 #include "controllers/dualsense/dualsense.h"
+#include "controllers/dualshock4/dualshock4.h"
+
 /* Add new controller includes here */
 /* #include "controllers/xbox/xbox.h" */
 /* #include "controllers/8bitdo/8bitdo.h" */
@@ -88,6 +90,7 @@ void controller_registry_init(void) {
     
     /* Register all supported controllers */
     dualsense_register();
+    dualshock4_register();
     
     /* Add new controllers here: */
     /* xbox_register(); */
