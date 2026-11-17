@@ -211,6 +211,7 @@ void* controller_input_thread(void* arg) {
  * ============================================================================ */
 
 int main(int argc, char* argv[]) {
+    setvbuf(stdout, NULL, _IOLBF, 0);
     for (int i = 1; i < argc; i++) {
         if (strcmp(argv[i], "-v") == 0 || strcmp(argv[i], "--verbose") == 0) {
             g_verbose = 1;
